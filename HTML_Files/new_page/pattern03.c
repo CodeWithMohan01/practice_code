@@ -2,14 +2,19 @@
 #include<conio.h>
 
 void main() {
-    int i,j,n;
+    int i,j,k,n;
     printf("Enter number of lines: ");
     scanf("%d",&n);
     for ( i = 1; i <= n; i++)
-    {      
-        for (j = 1; j <= i; j++)
+    {
+        for ( k = 0; k < (n-i); k++)
         {
-            printf("* ");
+            printf(" ");
+        }
+        
+        for (j = 1; j <= (2*i-1); j++)
+        {
+            printf("*");
         }
         printf("\n");
     }
