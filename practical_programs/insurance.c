@@ -8,7 +8,7 @@ void main()
     printf("Enter your age: ");
     scanf("%d",&age);
     fflush(stdin);
-    printf("\nSpecify your gender 'f' for female 'm' for mail: ");
+    printf("\nSpecify your gender 'f' for female 'm' for male : ");
     scanf("%c",&g);
     fflush(stdin);
     printf("\nAre you smoker press 'y' for yes 'n' for no: ");
@@ -65,9 +65,9 @@ void main()
 
         amnt = amnt - amnt*10/100;   
     }
-    // else
-    // {
-    //     printf("***sorry you are not eligibl for insourance***");
-    // }
+    else
+    {
+        printf("***sorry you are not eligibl for insourance***");
+    }
       printf("The final amount is: %d", amnt);
 }

@@ -11,9 +11,9 @@ void main() {
     else if (y%100==0)
     
         printf("This year is not leap year");
-    else if (y%4==0)    
+    else if (y%4==0)     
     {
-        printf("This year is an leap year: ");
+        printf("This year is a leap year: ");
     }
     else
     printf("This not not leap year: ");
